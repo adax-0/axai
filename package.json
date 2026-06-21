@@ -1,0 +1,15 @@
+{
+  "name": "axai-server",
+  "version": "1.0.0",
+  "description": "Ax.ai – Powerful AI platform backend",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "ANTHROPIC_API_KEY=your_key_here node server/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ai", "axai", "claude", "chatbot"],
+  "license": "MIT"
+}
